@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NINA RANDOMIZER</title>
+</head>
+<body>
+<script>
+const characters = [
+  "https://janitorai.com/characters/a274d14b-f165-4bab-9209-3b0683a1eedd_character-machinist-no-176",
+  "https://janitorai.com/characters/778ea373-a3d6-4d61-ac4c-bc8b44b08244_character-strange-farmer-nobody",
+  "https://janitorai.com/characters/5449cdee-6afb-47ac-8028-7470b6c70609_character-obsessed-with-how-you-eat-buffet-attendant-%E2%84%96-97",
+  "https://janitorai.com/characters/d36d2c71-2a4a-4e2b-a3eb-cb22bbc4926a_character-my-blanket-is-a-man",
+  "https://janitorai.com/characters/abcd176c-6144-4d04-b18f-b7c5f72eb447_character-ace-porcelain-devil-of-the-grand-express",
+  "https://janitorai.com/characters/df2198e4-15f1-4b83-ad2d-725889030019_character-inspector-%E2%84%96-37",
+  "https://janitorai.com/characters/24b91319-9f6d-48f9-9cf7-dc22d1dc0bbb_character-obsessed-angel-enlightened",
+  "https://janitorai.com/characters/a1e3ea37-1340-410c-8714-7bcd697fbfcf_character-conductor-%E2%84%96-83"
+];
+
+const randomIndex = Math.floor(Math.random() * characters.length);
+
+window.location.replace(characters[randomIndex]);
+</script>
+</body>
+</html>
